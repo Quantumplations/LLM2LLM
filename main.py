@@ -19,7 +19,7 @@ def main():
     client = genai.Client(api_key=api_key)
 
     # We'll use gemini-2.5-flash to bypass the zero-quota limit on the free tier for Pro
-    model_name = "gemini-2.5"
+    model_name = "gemini-2.5-flash"
 
     print("Initializing agents...")
 
